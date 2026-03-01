@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #e083d2;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 20px auto;
+    width: 310px;
+    background-color: #e083d2 ;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color:aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    cursor: pointer;
+    border: 2px solid #000000;
+    border-radius: 10%;
+}
+
+.box:hover {
+    background-color: #964288;
+}
+
+#reset {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
